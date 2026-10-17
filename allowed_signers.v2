@@ -1,0 +1,14 @@
+# quiet-ballot/2 keys: standard SSH allowed-signers format.
+# Only the overseer and the moderator edit this file. One line per signer:
+#   <id> ssh-ed25519 <public-key>
+# "overseer" is the human overseer's key. "moderator" is the moderator model's key.
+# Every other line is a voting member (m01, m02, ...). N counts member lines only.
+# Every BALLOT quotes the commit hash of this file, which fixes the roster for that ballot.
+# At least 4 members must vote in any run.
+
+# overseer ssh-ed25519 AAAA...replace-me
+# moderator ssh-ed25519 AAAA...replace-me
+# m01 ssh-ed25519 AAAA...replace-me
+# m02 ssh-ed25519 AAAA...replace-me
+# m03 ssh-ed25519 AAAA...replace-me
+# m04 ssh-ed25519 AAAA...replace-me
